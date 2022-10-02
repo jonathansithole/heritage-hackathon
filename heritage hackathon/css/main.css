@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Khand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    -webkit-text-size-adjust: 100%;
+   /* font-family: 'Antonio', sans-serif;*/
+}
+.form-holder{
+    width: 450px;
+    height: auto;
+    margin: 20px auto 20px;
+    border: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.form-holder .form-heading{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /*color: #def7ff;*/
+    color: grey;
+}
+.form-holder p{
+    color: gray;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.form-holder label{
+    font-weight: bold;
+    color: grey;
+}
+.form-holder input{
+    width: 100% !important;
+    position: relative;
+    padding: 15px;
+    background-color: #ffff;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+    overflow: none;
+    margin: 0px 5px 0px 0px;
+}
+.form-holder input:active{
+    border: 1px solid black !important;
+}
+.form-holder .log-in-button{
+    padding: 10px;
+    text-align: center;
+    background-color: grey;
+    color: #ffff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 5px;
+}
+.form-holder .next-button{
+    padding: 7px;
+    border: 1px solid grey;
+    background-color: grey;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #ffff;
+}
+.form-holder .back-button{
+    padding: 7px;
+    border: 1px solid red;
+    background-color: red;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: #ffff;
+}
+.form-holder button .button-text{
+    font-weight: none;
+}
+.step{
+    color: grey !important;
+    font-weight: bold;
+}
+.toast{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.password-requirements ul{
+    list-style: none;
+}
+.password-requirements .fa-sharp{
+    color: gray;
+}
+.password-requirements .req{
+    color: gray;
+}
+.error-message{
+    padding: 10px;
+    border: 1px solid red;
+    display: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: #ffff;
+    background-color: red;
+}
+.spinner-border{
+    width: 25px !important;
+    height: 25px !important;
+}
+.form-holder p{
+    text-align: justify;
+    color: gray;
+}
+.form-holder .forgot{
+    float: right;
+    width: auto;
+}
+.form-holder .register{
+    float: left;
+    width: auto;
+}
+.form-holder .links-container{
+    padding: 5px;
+}
+.lans{
+    padding: 15px;
+}
+.lans div{
+    border-radius: 10px;
+}
+.lans div a{
+    color: #ffff;
+}
+.lans .zulus{
+    background-image: url("../Images/zulus.jpg");
+    background-size: cover;
+}
+.lans .sepedi{
+    background-image: url("../Images/sepedi.jpg");
+    background-size: cover;
+}
+.lans .sothos{
+    background-image: url("../Images/basotho.jpg");
+    background-size: cover;
+}
+.lans .swati{
+    background-image: url("../Images/swati.jpg");
+    background-size: cover;
+}
+.lans .venda{
+    background-image: url("../Images/venda.jpg");
+    background-size: cover;
+}
+.lans .tsonga{
+    background-image: url("../Images/tsonga.jpg");
+    background-size: cover;
+}
+.lans .afrikaans{
+    background-image: url("../Images/afrikaans.jpg");
+    background-size: cover;
+}
+.lans .heritage{
+    background-image: url("../Images/heritage.jpg");
+    background-size: cover;
+}
+.lans .english{
+    background-image: url("../Images/english.jpg");
+    background-size: cover;
+}
+.lans .ndebele{
+    background-image: url("../Images/Ndebele.jpg");
+    background-size: cover;
+}
+.lans .xhosa{
+    background-image: url("../Images/xhosa.jpg");
+    background-size: cover;
+}
+
+
+.lans .tswana{
+    background-image: url("../Images/tshwana.jpg");
+    background-size: cover;
+}
+.section {
+	position: relative;
+	height: 100vh;
+}
+
+.section .section-center {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+#booking {
+	font-family: 'Montserrat', sans-serif;
+	background-image: url('../images/zuluintro.jpg')!important;
+	background-size: cover;
+	background-position: center;
+}
+
+#booking::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0;
+	background: rgba(47, 103, 177, 0.6);
+}
+
+.booking-form {
+	background-color: #fff;
+	padding: 50px 20px;
+	-webkit-box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.3);
+	border-radius: 4px;
+}
+
+.booking-form .form-group {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.booking-form .form-control {
+	background-color: #ebecee;
+	border-radius: 4px;
+	border: none;
+	height: 40px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #3e485c;
+	font-size: 14px;
+}
+
+.booking-form .form-control::-webkit-input-placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control:-ms-input-placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form .form-control::placeholder {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form input[type="date"].form-control:invalid {
+	color: rgba(62, 72, 92, 0.3);
+}
+
+.booking-form select.form-control {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.booking-form select.form-control+.select-arrow {
+	position: absolute;
+	right: 0px;
+	bottom: 4px;
+	width: 32px;
+	line-height: 32px;
+	height: 32px;
+	text-align: center;
+	pointer-events: none;
+	color: rgba(62, 72, 92, 0.3);
+	font-size: 14px;
+}
+
+.booking-form select.form-control+.select-arrow:after {
+	content: '\279C';
+	display: block;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+}
+
+.booking-form .form-label {
+	display: inline-block;
+	color: #3e485c;
+	font-weight: 700;
+	margin-bottom: 6px;
+	margin-left: 7px;
+}
+
+.booking-form .submit-btn {
+	display: inline-block;
+	color: #fff;
+	background-color: grey !important;
+	font-weight: 700;
+	padding: 14px 30px;
+	border-radius: 4px;
+	border: none;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+.booking-form .submit-btn:hover,
+.booking-form .submit-btn:focus {
+	opacity: 0.9;
+}
+
+.booking-cta {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+
+.booking-cta h1 {
+	font-size: 52px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+}
+
+.booking-cta p {
+	font-size: 16px;
+	color: rgba(255, 255, 255, 0.8);
+}
